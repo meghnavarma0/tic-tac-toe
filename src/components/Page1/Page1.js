@@ -18,7 +18,7 @@ const Page1 = () => {
 			<Link to='/select' style={{ textDecoration: 'none' }}>
 				<Button
 					text='Play with AI'
-					colorBack='blue'
+					colorBack='rgb(51, 158, 247)'
 					colorText='white'
 				/>
 			</Link>

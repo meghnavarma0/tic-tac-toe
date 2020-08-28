@@ -7,7 +7,7 @@
 	background-color: transparent;
 	border: 1px solid transparent;
 	border-radius: 50%;
-	box-shadow: 0 20px 20px -5px blue;
+	box-shadow: 0 20px 20px -5px rgb(51, 158, 247);
 
 	margin: 7px;
 }
@@ -16,16 +16,16 @@
 	height: 50px;
 	width: 16px;
 
-	background-color: blue;
+	background-color: rgb(51, 158, 247);
 	transform: rotate(45deg);
-	background: linear-gradient(0deg, blue 70%, cyan);
+	background: linear-gradient(0deg, rgb(51, 158, 247) 70%, cyan);
 	z-index: 1;
 }
 
 .md {
 	height: 50px;
 	width: 16px;
-	background-color: blue;
+	background-color: rgb(51, 158, 247);
 
 	transform: rotate(90deg);
 

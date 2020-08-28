@@ -1,11 +1,11 @@
 .btn {
 	height: 40px;
-	width: 300px;
+	width: 200px;
 	border: 1px solid transparent;
 	margin: 20px;
 	padding: 5px 25px;
 	border-radius: 20px;
-	box-shadow: 3px 5px 5px rgb(104, 104, 253);
+	box-shadow: 3px 5px 5px #c1c1c1;
 }
 .btn:hover {
 	cursor: pointer;
