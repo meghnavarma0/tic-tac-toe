@@ -1,0 +1,33 @@
+.myO#outer {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 7px;
+}
+
+.bigger {
+	height: 50px;
+	width: 50px;
+	/* margin-left: 12px; */
+	background-color: orange;
+	background: linear-gradient(60deg, orange 60%, yellow);
+	border: 1px solid transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	box-shadow: 0 20px 20px -10px orange;
+	z-index: 1;
+}
+
+.smaller {
+	height: 17px;
+	width: 17px;
+	border-radius: 50%;
+	border: 1px solid transparent;
+	background-color: white;
+
+	z-index: 2;
+}

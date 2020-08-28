@@ -1,0 +1,63 @@
+.myOuter#outer {
+	width: 30px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.outerCheck {
+	height: 30px;
+	width: 30px;
+	border: 1px solid transparent;
+	border-radius: 50%;
+	background: blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+}
+
+.midCheck {
+	height: 24px;
+	width: 24px;
+	border: 1px solid transparent;
+	border-radius: 50%;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 2;
+}
+
+.innerCheck {
+	height: 18px;
+	width: 18px;
+	border: 1px solid transparent;
+	border-radius: 50%;
+	background: blue;
+	z-index: 3;
+}
+
+.bigger {
+	height: 50px;
+	width: 50px;
+	/* margin-left: 12px; */
+	background-color: orange;
+	border: 1px solid transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.smaller {
+	height: 17px;
+	width: 17px;
+	border-radius: 50%;
+	border: 1px solid transparent;
+	background-color: white;
+
+	z-index: 2;
+}

@@ -1,0 +1,33 @@
+.myx#mdiv {
+	width: 33px;
+	height: 33px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: transparent;
+	border: 1px solid transparent;
+	border-radius: 50%;
+	box-shadow: 0 20px 20px -5px blue;
+
+	margin: 7px;
+}
+
+.sdiv {
+	height: 50px;
+	width: 16px;
+
+	background-color: blue;
+	transform: rotate(45deg);
+	background: linear-gradient(0deg, blue 70%, cyan);
+	z-index: 1;
+}
+
+.md {
+	height: 50px;
+	width: 16px;
+	background-color: blue;
+
+	transform: rotate(90deg);
+
+	z-index: 2;
+}

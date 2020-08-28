@@ -1,0 +1,11 @@
+.App {
+	text-align: center;
+	font-family: 'Lexend Peta', sans-serif;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	background: whitesmoke;
+	height: 100vh;
+}

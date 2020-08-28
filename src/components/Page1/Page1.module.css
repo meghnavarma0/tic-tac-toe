@@ -1,0 +1,14 @@
+.cover {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+
+.container {
+	height: 50vh;
+	width: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

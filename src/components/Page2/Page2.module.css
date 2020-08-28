@@ -1,0 +1,25 @@
+.container {
+	height: 50vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.outlet {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+.myX,
+.myO {
+	margin: 40px;
+	height: 165px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.myO {
+	opacity: 0.2;
+}
